@@ -1,0 +1,32 @@
+.card{
+  width: 100%;
+}
+.single-card{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:10px;
+  
+}
+.single{
+  border: 1px solid black;
+  padding: 10px;
+}
+.single-card img{
+   width: 150px;
+}
+.pagination{
+  display: flex;
+  gap: 5px;
+  padding: 20px;
+  justify-content: center;
+}
+.bord{
+  border:1px solid black;
+  padding: 10px;
+}
+.pagination__disable{
+  opacity: 0;
+}
+.pagination__selected{
+  background-color: rgb(220, 220, 220);
+}
